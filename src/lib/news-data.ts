@@ -1,0 +1,148 @@
+import { NewsArticle } from '@/types/news';
+
+export const mockNewsData: NewsArticle[] = [
+  {
+    id: '1',
+    title: 'NVIDIA Surpasses $2 Trillion Market Cap Milestone',
+    summary: "NVIDIA Corporation has crossed the $2 trillion market capitalization mark, driven by unprecedented demand for AI chips and data center solutions. The company's H100 GPU continues to dominate the AI training market.",
+    source: 'Financial Times',
+    publishedAt: new Date(Date.now() - 1 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['NVDA'],
+    category: 'Technology',
+  },
+  {
+    id: '2',
+    title: 'Federal Reserve Signals Potential Rate Cuts in Late 2024',
+    summary: 'Fed officials indicated a willingness to begin cutting interest rates later this year if inflation continues its downward trajectory. Markets responded positively to the news with major indices gaining.',
+    source: 'Reuters',
+    publishedAt: new Date(Date.now() - 2 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['SPX', 'DJI', 'IXIC'],
+    category: 'Macroeconomics',
+  },
+  {
+    id: '3',
+    title: 'Tesla Faces Increased Competition from Chinese EV Makers',
+    summary: "Tesla is experiencing significant pressure from Chinese electric vehicle manufacturers BYD and NIO, who have been gaining market share rapidly in Asia and Europe. The company's margins are expected to remain under pressure.",
+    source: 'Bloomberg',
+    publishedAt: new Date(Date.now() - 3 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'negative',
+    relevantSymbols: ['TSLA'],
+    category: 'Automotive',
+  },
+  {
+    id: '4',
+    title: 'Sea Limited Reports Strong Q4 Revenue Growth',
+    summary: 'Sea Limited, the Singapore-based tech conglomerate, reported better-than-expected Q4 results with Shopee e-commerce and Garena gaming divisions both showing recovery. The company returned to profitability ahead of schedule.',
+    source: 'Straits Times',
+    publishedAt: new Date(Date.now() - 4 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['SE'],
+    category: 'Technology',
+  },
+  {
+    id: '5',
+    title: 'Gold Prices Reach All-Time Highs Amid Geopolitical Tensions',
+    summary: 'Gold futures broke through $2,300 per ounce for the first time in history as investors sought safe-haven assets amid ongoing geopolitical tensions in the Middle East and concerns about global economic stability.',
+    source: 'CNBC',
+    publishedAt: new Date(Date.now() - 5 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['GC'],
+    category: 'Commodities',
+  },
+  {
+    id: '6',
+    title: 'Alibaba Announces $25 Billion Share Buyback Program',
+    summary: "Alibaba Group unveiled a massive $25 billion share repurchase program, its largest ever, signaling confidence in the company's long-term value despite ongoing regulatory challenges in China.",
+    source: 'South China Morning Post',
+    publishedAt: new Date(Date.now() - 6 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['BABA'],
+    category: 'Technology',
+  },
+  {
+    id: '7',
+    title: 'Singapore STI Index Hits 52-Week High on Strong Regional Growth',
+    summary: 'The Straits Times Index reached a new 52-week high supported by strong banking sector earnings and positive economic data from Southeast Asia. DBS, OCBC, and UOB all reported record profits.',
+    source: 'Business Times',
+    publishedAt: new Date(Date.now() - 8 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['STI'],
+    category: 'Regional Markets',
+  },
+  {
+    id: '8',
+    title: 'Oil Prices Decline on Demand Concerns from China',
+    summary: "Crude oil prices fell below $84 per barrel as disappointing economic data from China raised concerns about reduced demand from the world's largest oil importer. OPEC+ production cuts continue to provide some support.",
+    source: 'Reuters',
+    publishedAt: new Date(Date.now() - 10 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'negative',
+    relevantSymbols: ['CL'],
+    category: 'Commodities',
+  },
+  {
+    id: '9',
+    title: 'Grab Holdings Expands Financial Services Across Southeast Asia',
+    summary: 'Grab is aggressively expanding its digital financial services across Malaysia, Indonesia, and Thailand, offering micro-loans and insurance products. The super-app strategy is showing positive unit economics improvements.',
+    source: 'Tech in Asia',
+    publishedAt: new Date(Date.now() - 12 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['GRAB'],
+    category: 'Fintech',
+  },
+  {
+    id: '10',
+    title: 'Microsoft Azure Growth Slows Slightly in Q2',
+    summary: "Microsoft reported strong quarterly earnings but Azure cloud growth came in slightly below analyst expectations at 28% year-over-year. The company's AI integration across its product suite continues to drive user engagement.",
+    source: 'Wall Street Journal',
+    publishedAt: new Date(Date.now() - 14 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'neutral',
+    relevantSymbols: ['MSFT'],
+    category: 'Technology',
+  },
+  {
+    id: '11',
+    title: 'Thailand SET Index Under Pressure from Political Uncertainty',
+    summary: 'The Thai stock market faced selling pressure as political uncertainty continues to weigh on investor sentiment. Foreign investors have been net sellers for the third consecutive week.',
+    source: 'Bangkok Post',
+    publishedAt: new Date(Date.now() - 16 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'negative',
+    relevantSymbols: ['SET'],
+    category: 'Regional Markets',
+  },
+  {
+    id: '12',
+    title: 'Meta AI Investments Drive Revenue Growth Optimism',
+    summary: 'Meta Platforms continues to invest heavily in AI infrastructure, with the company announcing plans to spend $35-40 billion on capital expenditure in 2024. Advertising revenue recovery is ahead of expectations.',
+    source: 'TechCrunch',
+    publishedAt: new Date(Date.now() - 18 * 60 * 60 * 1000).toISOString(),
+    url: '#',
+    sentiment: 'positive',
+    relevantSymbols: ['META'],
+    category: 'Technology',
+  },
+];
+
+export function getLatestNews(): NewsArticle[] {
+  return mockNewsData.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+}
+
+export function getNewsBySymbol(symbol: string): NewsArticle[] {
+  return mockNewsData.filter(article => article.relevantSymbols.includes(symbol));
+}
+
+export function getNewsByCategory(category: string): NewsArticle[] {
+  return mockNewsData.filter(article => article.category.toLowerCase() === category.toLowerCase());
+}
