@@ -1,0 +1,18 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+    "C_Cpp.default.systemIncludePath": [
+        "${workspaceFolder}/.venv/include/site/python3.12",
+        "/usr/include/python3.12",
+        "/usr/local/include/python3.12"
+    ],
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/.venv/include/site/python3.12",
+        "/usr/include/python3.12",
+        "/usr/local/include/python3.12"
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "git.ignoreLimitWarning": true,
+    "css.lint.unknownAtRules": "ignore"
+}
